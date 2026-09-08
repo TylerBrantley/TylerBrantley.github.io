@@ -1,0 +1,224 @@
+body {
+   margin: 0;
+}
+
+/****************   Nav Section **********************/
+nav {
+  font-family: "Google Sans Flex", sans-serif;
+	background-color: #FF6969;
+  border-bottom: 2px solid #574240;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+nav a:hover {
+  color: blue;
+  background-color: #d6d6fe;
+}
+
+.name-header {
+  color: rgb(57, 1, 1);
+  font-weight: bold;
+  align-self: center;
+}
+
+.button {
+  background-color: #B6B6F3;
+  padding: 10px;
+  border: 3px solid #574240;
+  border-radius: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+/***********************  Footer Section   **************************/
+footer {
+  margin: 0;
+	background-color: #FF6969;
+  border-top: 2px solid #574240;
+  display: flex;
+  justify-content: center;
+}
+
+footer p {
+  font-family: "Google Sans Flex", sans-serif;
+  color: rgb(57, 1, 1);
+  padding: 10px;
+}
+
+p a {
+  text-decoration: none;
+  color: rgb(57, 1, 1);
+}
+
+/*********** Splash Page ************************/
+header {
+  background-color: #f0f2ea;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 35px;
+}
+
+header h1 {
+  font-family: "Patua One", sans-serif;
+  font-weight: 500;
+  color: rgb(57, 1, 1);
+  margin: 0;
+}
+
+header img {
+  border: 3px solid #574240;
+  border-radius: 15px;
+}
+
+.address {
+  background-color: #f0f2ea;
+  font-weight: bold;
+  font-family: "Google Sans Flex", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.tagline {
+  font-family: "Roboto Flex", sans-serif;
+  background-color: #f0f2ea;
+  margin: 0;
+  padding: 35px 150px;
+}
+
+/************* Sections ********************/
+hr {
+  margin: 0;
+}
+
+section {
+ margin: 40px 75px;
+}
+
+section h3 {
+  font-family: "Google Sans Flex", sans-serif;
+  color:#574240;
+}
+
+section h2 {
+  font-family: "Patua One", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+section dl {
+  font-family: "Roboto Flex", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 35px;
+  padding: 0px 10px
+}
+
+dl dt {
+  grid-column: 2;
+  text-align: start;
+}
+
+dl dd {
+  grid-column: 3;
+  text-align: end;
+}
+
+section ul {
+  display: flex;
+  font-family: "Roboto Flex", sans-serif;
+  list-style: none;
+  justify-content: center;
+}
+
+section li {
+  text-align: left;
+  padding: 40px;
+}
+
+section a {
+  color: red;
+  text-decoration: none;
+}
+
+section a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+/**************   Projects   *****************/
+.three-col {
+	display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+
+}
+
+.card img {
+  width: 18rem;
+  display: block;
+  padding: 30px;
+}
+
+.card ul {
+  display: block;
+  list-style-type: square;
+}
+
+.card li {
+  text-align: left;
+  padding: 5px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 25px; 
+  gap: 50px;
+  background-color: #f0f2ea;
+  border: 3px solid #574240;
+}
+
+/**************   Responsiveness   *****************/
+@media (max-width: 680px) {
+    nav {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .three-col {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    .button {
+     display: flex;
+     justify-content: center;
+    }
+}
+
+/**************   Contact Page   *****************/
+.one-col {
+  font-family: "Google Sans Flex", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  padding: 30px;
+  display: block;
+}
+
+textarea {
+  width: 700px;
+  height: 150px;
+  padding: 94px;
+  display: block;
+}
+
