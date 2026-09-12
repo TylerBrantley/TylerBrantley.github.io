@@ -87,6 +87,7 @@ header img {
   background-color: #f0f2ea;
   margin: 0;
   padding: 35px 150px;
+  text-align: center;
 }
 
 /************* Sections ********************/
@@ -173,14 +174,20 @@ section a:hover {
   padding: 5px;
 }
 
+.card:hover {
+ transform: translateY(-10px);
+ border: 4px solid #574240;
+}
+
 .card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 15px 25px; 
+  padding: 15px 
   gap: 50px;
   background-color: #f0f2ea;
   border: 3px solid #574240;
+  border-radius: 30px;
 }
 
 /**************   Responsiveness   *****************/
