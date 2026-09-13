@@ -114,7 +114,7 @@ section dl {
   font-family: "Roboto Flex", sans-serif;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 35px;
+  gap: 50px;
   padding: 0px 10px
 }
 
