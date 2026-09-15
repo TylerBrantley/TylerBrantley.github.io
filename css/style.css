@@ -209,6 +209,14 @@ section a:hover {
 }
 
 /**************   Contact Page   *****************/
+.contact-info {
+  background-color: #f0f2ea;  
+  font-family: "Patua One", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .one-col {
   font-family: "Google Sans Flex", sans-serif;
   display: flex;
@@ -217,15 +225,30 @@ section a:hover {
   align-items: center;
 }
 
+
 input {
+  font-family: "Roboto Flex", sans-serif;
   padding: 30px;
   display: block;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+
+input[type=submit] {
+  background-color: blue;
 }
 
 textarea {
+  font-family: "Roboto Flex", sans-serif;
   width: 700px;
-  height: 150px;
-  padding: 94px;
+  height: 360px;
+  padding: 10px;
   display: block;
+  border: 1 px solid #ccc;
+  border-radius: 4px
 }
 
