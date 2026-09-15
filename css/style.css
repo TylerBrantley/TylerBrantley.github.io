@@ -238,14 +238,24 @@ input {
   
 }
 
-input[type=submit] {
-  background-color: blue;
+button[type="submit"] {
+  font-family: "Roboto Flex", sans-serif;
+  background-color: #B6B6F3; 
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+button[type="submit"]:hover {
+  color: blue;
+  background-color: #d6d6fe;
 }
 
 textarea {
   font-family: "Roboto Flex", sans-serif;
   width: 700px;
-  height: 360px;
+  height: 350px;
   padding: 10px;
   display: block;
   border: 1 px solid #ccc;
